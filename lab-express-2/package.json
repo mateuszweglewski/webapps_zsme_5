@@ -1,0 +1,14 @@
+{
+  "name": "lab-express-2",
+  "version": "1.0.0",
+  "description": "LAB 4: Express - wlasne trasy i kody HTTP",
+  "main": "app.js",
+  "scripts": {
+    "start": "node --env-file=.env app.js",
+    "dev": "node --env-file=.env --watch app.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
